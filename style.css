@@ -7,13 +7,12 @@
 body {
     font-family: 'Arial', sans-serif;
     background-color: #000000;
-    background-image: url('https://i.pinimg.com/originals/c0/5f/29/c05f295ad552c2f1f05c98a6c0caf7db.png');
-    background-size: cover; /* Faz com que a imagem cubra toda a área da tela */
-    background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-image: url('src/planodefundo.jpg');
+    background-size: cover; /*Faz com que a imagem cubra toda a área da tela*/
+    background-position: center; 
     display: flex;
     justify-content: center;
-    align-items: center; /* Centraliza o conteúdo verticalmente */
+    align-items: center; 
     height: 100vh;
 }
 
