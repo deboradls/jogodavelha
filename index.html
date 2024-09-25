@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>JOGO DA VELHA</h1>
+        <!-- Tabuleiro do jogo -->
+        <div class="game-board">
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+        </div>
+
+        <!-- Mensagem de vitória e botão de jogar novamente -->
+        <div class="winning-message-container">
+            <h2 class="winning-message" id="winningMessage">
+                <span id="winningMessageText"></span>
+            </h2>
+            <button id="restartButton">JOGAR NOVAMENTE</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
